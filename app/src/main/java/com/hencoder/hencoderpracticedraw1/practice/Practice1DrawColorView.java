@@ -3,9 +3,10 @@ package com.hencoder.hencoderpracticedraw1.practice;
 import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Color;
-import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.view.View;
+
+import androidx.annotation.Nullable;
 
 public class Practice1DrawColorView extends View {
 

@@ -4,11 +4,12 @@ import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
-import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.view.View;
 
 import com.hencoder.hencoderpracticedraw1.R;
+
+import androidx.annotation.Nullable;
 
 public class Practice10HistogramView extends View {
 

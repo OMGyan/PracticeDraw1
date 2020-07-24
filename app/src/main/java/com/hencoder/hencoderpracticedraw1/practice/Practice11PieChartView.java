@@ -4,11 +4,11 @@ import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
-import android.graphics.Path;
 import android.graphics.RectF;
-import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.view.View;
+
+import androidx.annotation.Nullable;
 
 public class Practice11PieChartView extends View {
 
@@ -87,7 +87,6 @@ public class Practice11PieChartView extends View {
           canvas.drawLines(points2,linePaint);
           canvas.drawText("Ice Cream Sandwich",555,507,textPaint);
 
-
           mPaint.setColor(Color.YELLOW);
           canvas.drawArc(normalRectf,-2,5,true,mPaint);
           float x3 = (float)(centerX + radius * Math.cos(0.5 * Math.PI / 180));
@@ -107,9 +106,9 @@ public class Practice11PieChartView extends View {
           mPaint.setColor(Color.LTGRAY);
           canvas.drawArc(new RectF(140, 290, 440, 590),-71,-117,true,mPaint);
 
-           centerX = (int) ((440 - 140) / 2 + 140);
-           centerY = (int) ((590 - 290) / 2 + 290);
-           radius = (int) ((440 - 140) / 2);
+          centerX = (int) ((440 - 140) / 2 + 140);
+          centerY = (int) ((590 - 290) / 2 + 290);
+          radius = (int) ((440 - 140) / 2);
 
 
           float x5 = (float)(centerX + radius * Math.cos(-129.5 * Math.PI / 180));
@@ -124,6 +123,8 @@ public class Practice11PieChartView extends View {
           paint3.setColor(Color.WHITE);
           paint3.setTextSize(50);
           canvas.drawText("饼图",330,690,paint3);
+
+
     }
 
 
